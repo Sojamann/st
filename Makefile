@@ -54,4 +54,4 @@ uninstall:
 	rm -f $(DESTDIR)$(PREFIX)/bin/st
 	rm -f $(DESTDIR)$(MANPREFIX)/man1/st.1
 
-.PHONY: all options clean dist install uninstall
+.PHONY: all options clean dist install uninstall stdocker

@@ -122,6 +122,7 @@ extern wchar_t *worddelimiters;
 extern int allowaltscreen;
 extern int allowwindowops;
 extern char *termname;
+extern float alpha;
 extern unsigned int tabspaces;
 extern unsigned int defaultfg;
 extern unsigned int defaultbg;

@@ -3,9 +3,14 @@ st - simple terminal
 st is a simple terminal emulator for X which sucks less.
 
 
+git remote add upstream git://git.suckless.org/st
+
+
 Requirements
 ------------
 In order to build st you need the Xlib header files.
+
+xbps-install pkg-config fontconfig-devel libX11-devel libXft-devel
 
 
 Installation
